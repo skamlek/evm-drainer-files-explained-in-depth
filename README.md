@@ -6,6 +6,7 @@ Web3 Wallet Drainer Kits - Analysis Report
 
 Date: May 12, 2025
 Author: unknown
+
 Document: web3_drainer_analysis_report.md
 
 Overview
