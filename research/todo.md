@@ -1,0 +1,11 @@
+- [ ] Search for malicious EVM smart contracts used in drainer operations on primary block explorers (e.g., Etherscan) and leak sources (GitHub, forums), using labels like "drainer", "phishing".
+- [ ] If primary block explorers are blocked (e.g., by Cloudflare), attempt access on alternative block explorers (BscScan, Arbiscan), public datasets, or directly search GitHub for leaked code and known malicious contract addresses.
+- [ ] Prioritize searching GitHub for leaked drainer contract source code or bytecode. Also search for public datasets containing malicious smart contract information.
+- [ ] Retrieve verified Solidity source code if available, or obtain bytecode for decompilation from accessible sources.
+- [ ] If bytecode is retrieved from leaks or datasets, use decompiler tools (e.g., Dedaub, Panoramix, or online decompilers) to get pseudo-code or readable Solidity.
+- [ ] Analyze and rewrite the contract logic into clean, readable Solidity or pseudo-code, adding comments for clarity for each new contract found.
+- [ ] Explain the attack logic of each contract, detailing how it forces token approvals, uses `transferFrom` to drain ERC-20/721/1155 assets, or loops through token contracts.
+- [ ] Identify and document any obfuscation techniques, proxy patterns (e.g., EIP-1967), or upgradeable contract designs (e.g., UUPS, Transparent Upgradeable Proxy) for each contract.
+- [ ] Compile examples of malicious contracts with their readable code and detailed explanations into a structured report. Append new findings to the main report or create separate reports as appropriate.
+- [ ] Report all findings and send the compiled documentation and code examples to the user, iterating as new contracts are analyzed.
+- [ ] Continue searching for additional malicious contracts and repeat the analysis cycle until sufficient examples are covered or the user requests to stop.
