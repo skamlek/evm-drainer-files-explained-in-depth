@@ -5,7 +5,7 @@ message me on telegram @balkansatoshi if u need to contact me
 Web3 Wallet Drainer Kits - Analysis Report
 
 Date: May 12, 2025
-Author: unknown
+Author: @balkansatoshi on telegram
 
 Document: web3_drainer_analysis_report.md
 
